@@ -6,7 +6,7 @@ import { ArrowUpRight, Globe, MessageCircle } from 'lucide-react';
 const LINKS = [
   {
     icon: Globe,
-    label: 'Main Portfolio',
+    label: 'Tech Portfolio',
     description: 'Full personal portfolio covering background, projects, and professional highlights.',
     href: 'https://muneeb-ashraf.vercel.app/',
     cta: 'Visit Portfolio',

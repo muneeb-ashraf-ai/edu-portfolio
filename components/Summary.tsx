@@ -154,7 +154,7 @@ export default function Summary() {
               fontSize: '1rem',
               marginBottom: 4,
             }}>
-              500+ students · 6+ years · 15+ projects
+              Students across secondary, undergraduate &amp; postgraduate levels
             </div>
             <div style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>
               Across secondary school, undergraduate, and postgraduate levels.

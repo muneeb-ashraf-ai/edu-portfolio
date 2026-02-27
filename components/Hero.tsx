@@ -2,7 +2,7 @@
 import { motion } from 'framer-motion';
 import { ArrowRight, BookOpen, Mail } from 'lucide-react';
 import Link from 'next/link';
-import { PERSONAL, STATS } from '@/lib/data';
+import { PERSONAL } from '@/lib/data';
 
 export default function Hero() {
   return (
@@ -94,7 +94,7 @@ export default function Hero() {
           transition={{ delay: 0.5, duration: 0.6 }}
           style={{ display: 'flex', flexWrap: 'wrap', gap: 8, marginBottom: 32 }}
         >
-          {['MSc Mathematics', 'MS Data Science (UET)', 'AI Instructor', '6+ Years Teaching'].map(tag => (
+          {['MSc Mathematics', 'MS Data Science (UET)', 'AI Instructor', 'Experienced Educator'].map(tag => (
             <span key={tag} className="badge">{tag}</span>
           ))}
         </motion.div>
@@ -135,55 +135,7 @@ export default function Hero() {
           </Link>
         </motion.div>
 
-        {/* Stats */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.9, duration: 0.7 }}
-          style={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(4, 1fr)',
-            gap: 1,
-            background: 'var(--border)',
-            border: '1px solid var(--border)',
-            borderRadius: 'var(--radius-lg)',
-            overflow: 'hidden',
-            maxWidth: 680,
-          }}
-        >
-          {STATS.map((s, i) => (
-            <div
-              key={i}
-              style={{
-                background: 'var(--bg-surface)',
-                padding: '24px 16px',
-                textAlign: 'center',
-              }}
-            >
-              <div style={{
-                fontFamily: "'Plus Jakarta Sans', sans-serif",
-                fontSize: 'clamp(1.6rem, 3vw, 2.2rem)',
-                fontWeight: 800,
-                color: 'var(--text-primary)',
-                lineHeight: 1,
-                marginBottom: 6,
-                letterSpacing: '-0.03em',
-              }}>
-                {s.value}
-              </div>
-              <div style={{
-                fontSize: '0.72rem',
-                color: 'var(--text-muted)',
-                fontWeight: 500,
-                letterSpacing: '0.06em',
-                textTransform: 'uppercase',
-                fontFamily: "'JetBrains Mono', monospace",
-              }}>
-                {s.label}
-              </div>
-            </div>
-          ))}
-        </motion.div>
+
       </div>
 
 

@@ -10,16 +10,17 @@ export const PERSONAL = {
   email: 'muneebashraf.edu@gmail.com',
   phone: '(+92) 3006275648',
   youtube: 'https://www.youtube.com/@alphaaa_m',
+  whatsapp: 'https://wa.me/923006275648',
   linkedin: 'https://linkedin.com/in/muneeb-ashraf-ai',
   github: 'https://github.com/alphaaa-m',
   cv: '/assets/CV_Muneeb_Ashraf.pdf',
 };
 
 export const STATS = [
-  { value: '6+', label: 'Years Teaching' },
-  { value: '500+', label: 'Students Taught' },
-  { value: '15+', label: 'AI Projects' },
-  { value: '08+', label: 'Certifications' },
+  { value: 'Multi-year', label: 'Teaching Experience' },
+  { value: 'Broad', label: 'Student Reach' },
+  { value: 'Diverse', label: 'AI Projects' },
+  { value: 'Certified', label: 'Credentials' },
 ];
 
 export const TEACHING_EXPERIENCE = [
