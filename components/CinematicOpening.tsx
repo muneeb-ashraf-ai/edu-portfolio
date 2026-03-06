@@ -631,7 +631,11 @@ export default function CinematicOpening() {
         <h1 className="opening-title">{PERSONAL.name}</h1>
         <h2 className="opening-subtitle">{PERSONAL.title}</h2>
         <span className="opening-divider" aria-hidden />
-        <p className="opening-kicker">Making students capable of understanding mathematics, AI, and technology to survive and thrive in the evolving AI world</p>
+        
+        <div style={{ marginTop: 80, maxWidth: '88vw', color: '#c8d0e0', textShadow: '0 0 18px rgba(200, 208, 224, 0.28)' }}>
+            <p className="opening-kicker">Preparing students for the AI era through mathematics and technology</p>
+        </div>
+
       </div>
 
       <style jsx>{`
